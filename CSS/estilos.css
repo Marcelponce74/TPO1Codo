@@ -1,0 +1,143 @@
+@font-face{
+    font-family: "zhegotte";
+    src: url(../assets/fonts/Zhegotte.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-size: 100%;
+    font-family: "Roboto",sans-serif, Arial, Helvetica;
+    font-weight: bold;
+    background-color: #F7F5E6;
+}
+header {
+    width: 100vw;
+    /*height: 20vh;*/
+    background-color:#F7F5E6;
+    background-color: #52658F;
+}
+/*main{
+    width: 100vw;
+    height: 65vh;
+    
+}*/
+
+.logoHotel {
+    text-align: left;
+    font-size: 2rem;
+    background-position: left;
+    padding-top: 50px;
+    color: #E8E8E8;
+    font-family: "zhegotte"; 
+}
+
+#navHeader {
+    font-family: "Roboto",sans-serif, Arial, Helvetica;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: right;
+}
+
+#navHeader ul li {
+    display: inline-block;
+    background-size: contain;
+    background-position: right;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: #E8E8E8;
+    padding: 10px;
+}
+footer {
+    width: 100vw;
+    height: 15;
+    padding: 20px;
+    background-color: #E8E8E8;
+    color: #333A56;
+    text-align: center;
+}    
+
+.botonenlaces{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.galeriaFotos{
+    display: grid;
+}
+.carrousel{
+        width: 90%;
+        max-width: 120em;
+        padding: 2em;
+        transition: all 0.4s ease;
+        border-radius: 1em;
+}
+.grande{
+    width: 300%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    transition: all .5s ease;
+    border-radius: 1em;
+    transform: translateX(0%);
+}
+
+.imagenHotel{
+    width: calc( 100% / 3 - 3em);
+    min-height: 10vh;
+    transition: all 0.4s ease;
+    border-radius: 1em;
+}
+.puntos{
+    width: 100%;
+    margin: 1em 0 0;
+    padding: 0.4em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 1em 0;
+}
+.punto{
+    width: 2em;
+    height: 2em;
+    margin: 1em 1em 0;
+    transition: all 0.4s ease;
+    border-radius: 1em;
+}
+.activo{
+    background-color: #333A56;
+}
+.datosNosotros{
+    width: 90%;
+    margin: 20px auto;
+    
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+.mapaubicacion {
+    background-color: #E8E8E8;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.habitaciones{
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
